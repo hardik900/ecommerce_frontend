@@ -207,7 +207,10 @@ const Foods = () => {
                             </tbody>
                         </Table>
 
-                    </> : "Loading"
+                    </> : 
+                    <div className="loaderContainer">
+                        <div className="loader"></div>
+                    </div>
             }
 
 

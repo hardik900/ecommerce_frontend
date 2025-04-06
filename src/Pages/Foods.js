@@ -215,7 +215,7 @@ const Foods = () => {
 
             <Modal show={show} onHide={handleClose} className="foodAdd">
                 <Modal.Header closeButton>
-                    <Modal.Title>Add Foods</Modal.Title>
+                    <Modal.Title>Add Products</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="container-fluid">
@@ -265,7 +265,7 @@ const Foods = () => {
 
             <Modal show={showUpdate} onHide={handleCloseUpdate} className="foodAdd">
                 <Modal.Header closeButton>
-                    <Modal.Title>Update Foods</Modal.Title>
+                    <Modal.Title>Update Products</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     {singleDataStatus ? <div className="container-fluid">

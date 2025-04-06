@@ -12,8 +12,7 @@
 }
 
 .imageSize:hover{
-    height: 150px;
-    width: 150px;
+    tranform:scale(1.3)
     overflow: visible;
 }
 

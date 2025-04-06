@@ -1,4 +1,11 @@
 .imageSize{
     height: 100px;
-    width: auto;
+    width: 100px;
+}
+
+@media screen and (max-width:768px){
+    .imageSize{
+        width: 60px;
+        height: 90px;
+    }
 }

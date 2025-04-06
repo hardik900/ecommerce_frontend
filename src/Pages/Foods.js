@@ -298,7 +298,11 @@ const Foods = () => {
                             </div>
 
                         </div>
-                    </div> : "Loading"}
+                    </div> : 
+                    <div className="loaderContainer">
+                        <div className="loader"></div>
+                    </div>
+                }
 
                 </Modal.Body>
                 <Modal.Footer>

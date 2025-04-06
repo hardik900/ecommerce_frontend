@@ -188,13 +188,13 @@ const Foods = () => {
                                     <tr>
                                         {/* <td><img src={items.image} width={`10%`}/></td> */}
                                         <td>{items.name}</td>
-                                        <td>
+                                        <td className = "imgBox">
                                             <img className="imageSize" src={items.image1} />
                                         </td>
-                                        <td>
+                                        <td className = "imgBox">
                                             <img className="imageSize" src={items.image2} />
                                         </td>
-                                        <td>
+                                        <td className = "imgBox">
                                             <img className="imageSize" src={items.image3} />
                                         </td>
                                         <td>₹ {items.price}</td>

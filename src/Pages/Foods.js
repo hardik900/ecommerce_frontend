@@ -222,12 +222,12 @@ const Foods = () => {
                         <div className="row">
 
                             <div className="col-6">
-                                <label className="my-2">Enter name of food</label>
+                                <label className="my-2">Enter name of Products</label>
                                 <input type="text" onChange={(e) => setpostData(postData => ({ ...postData, ...{ name: e.target.value } }))} />
                             </div>
 
                             <div className="col-6">
-                                <label className="my-2">Enter Price of food</label>
+                                <label className="my-2">Enter Price of Products</label>
                                 <input type="number" onChange={(e) => setpostData(postData => ({ ...postData, ...{ price: Number(e.target.value) } }))} />
                             </div>
 
@@ -273,12 +273,12 @@ const Foods = () => {
 
 
                             <div className="col-6">
-                                <label className="my-2">Enter Name of food</label>
+                                <label className="my-2">Enter Name of Products</label>
                                 <input type="text" value={SingleData.name} onChange={(e) => setSingleData(postData => ({ ...postData, ...{ name: e.target.value } }))} />
                             </div>
 
                             <div className="col-6">
-                                <label className="my-2">Enter Price of food</label>
+                                <label className="my-2">Enter Price of Products</label>
                                 <input type="number" value={SingleData.price}  onChange={(e) => setSingleData(postData => ({ ...postData, ...{ price: Number(e.target.value) } }))} />
                             </div>
 

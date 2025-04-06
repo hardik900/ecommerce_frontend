@@ -7,7 +7,7 @@
     overflow: visible;
 }
 
-.imageBox:hover{
+.imageBox:hover .imageSize img{
     height: 150px;
     width: 150px;
     overflow: visible;
@@ -18,7 +18,7 @@
         width: 60px;
         height: 90px;
     }
-    .imageBox:hover{
+    .imageBox:hover .imageSize img{
         height: 60px;
         width: 90px;
         overflow: visible;

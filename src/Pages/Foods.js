@@ -199,8 +199,8 @@ const Foods = () => {
                                         </td>
                                         <td>₹ {items.price}</td>
                                         <td>
-                                            <button className="btn btn-primary mx-auto" onClick={() => handleShowUpdate(items._id)}>Edit</button>
-                                            <button className="btn btn-danger mx-auto" onClick={() => DeletetheData(items._id)}>Delete</button>
+                                            <button className="btn btn-primary mx-auto d-block" onClick={() => handleShowUpdate(items._id)}>Edit</button>
+                                            <button className="btn btn-danger mx-auto d-block" onClick={() => DeletetheData(items._id)}>Delete</button>
                                         </td>
                                     </tr>
                                 ))}

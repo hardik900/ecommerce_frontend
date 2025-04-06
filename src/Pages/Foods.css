@@ -3,9 +3,24 @@
     width: 100px;
 }
 
+.imageBox{
+    overflow: visible;
+}
+
+.imageBox:hover{
+    height: 150px;
+    width: 150px;
+    overflow: visible;
+}
+
 @media screen and (max-width:768px){
     .imageSize{
         width: 60px;
         height: 90px;
     }
+    .imageBox:hover{
+        height: 60px;
+        width: 90px;
+        overflow: visible;
+   }
 }

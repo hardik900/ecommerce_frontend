@@ -170,7 +170,7 @@ const Foods = () => {
             {
                 status ?
                     <>
-                        <button className="btn btn-primary m-auto d-block my-3" onClick={handleShow}>Add Food</button>
+                        <button className="btn btn-primary m-auto d-block my-3" onClick={handleShow}>Add Products</button>
                         <Table striped bordered hover size="sm">
                             <thead>
                                 <tr>
@@ -251,7 +251,7 @@ const Foods = () => {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
-                        Save Changes
+                        Submit
                     </Button>
                 </Modal.Footer>
             </Modal>

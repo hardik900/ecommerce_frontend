@@ -9,7 +9,7 @@
     width: 150px;
 }
 
-.imageBox:hover .imageSize img{
+.imageSize img:hover{
     height: 150px;
     width: 150px;
     overflow: visible;
